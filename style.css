@@ -1,0 +1,76 @@
+body{
+    background: #B2C7DF;
+    margin: 0px;
+}
+
+header{
+    background-color: rgba(27, 26, 94, 0.72);
+    display: grid;
+    grid-auto-flow: column;
+}
+
+.logo{
+    padding-left: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.title{
+    padding-top: 4rem;
+    padding-right: 5rem;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 38px;
+    line-height: 50px;
+    text-align: center;
+}
+
+form{
+    display: grid;
+    grid-auto-flow: row;
+    max-width: 400px;
+}
+
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.57);
+    height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 0px;
+}
+
+.submit-button{
+    background: #1B1A5E;
+    border-radius: 8px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border:0px;
+    padding: 10px;
+    width: 244px;
+    height: 40px;
+    margin: 0 auto;
+    
+}
+
+#sec-form{
+    display: grid;
+    grid-auto-flow: column;
+}
+
+th{
+    background: rgba(64, 123, 255, 0.55);
+    border: 1px solid #767373;
+    min-width: 110px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AGENDAMENTO DE BANHO E TOSA</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    <header>
+        <img class="logo" src="12638.png" alt="LOGO PATINHA" width="90px">    
+        <h1 class="title"> AGENDAMENTO DE BANHO E TOSA</h1>
+
+    </header>
+
+    <section id="sec-form">
+        <div id="form">
+            <form onsubmit="addPet()">
+                <label for="petName"> Nome do Pet *</label>
+                <input autocomplete="off" type="text" required id="fname" name="petName">
+
+                <label for="petBreed"> Raça *</label>
+                <input autocomplete="off" type="text" required id="fbreed" name="petBreed">
+
+                <label for="petOwner"> Dono do Pet *</label>
+                <input autocomplete="off" type="text" required id="fowner" name="petOwner">
+
+                <label for="petPhone"> Telefone *</label>
+                <input style="margin-bottom: 1rem;" autocomplete="off" type="text" required id="fphone" name="petPhone">
+                <button class="submit-button" type="submit"> Agendar PET</button>
+            </form>
+
+        </div>
+        <div>
+            <table id="dataTable">
+                <tr>
+                    <th>ID</th>
+                    <th>Nome do Pet</th>
+                    <th>Raça</th>
+                    <th>Dono</th>
+                    <th>telefone</th>
+                    <th>Remover</th>
+                 </tr>
+            </table>
+
+        </div>
+
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
